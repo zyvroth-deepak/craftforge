@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CraftForge - AI-powered toolkit for Minecraft creators.">
+  <title>CraftForge — Forge Better Minecraft Content</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><span class="brand-mark">CF</span> CraftForge</a>
+    <nav>
+      <a href="#tools">AI Tools</a>
+      <a href="#ideas">Creator Ideas</a>
+      <a href="#minecraft">Minecraft Tools</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <a class="nav-cta" href="#tools">Start Creating</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="glow"></div>
+      <div class="hero-copy">
+        <span class="eyebrow">⚡ Built for Minecraft creators</span>
+        <h1>Forge Better<br><span>Minecraft Content.</span></h1>
+        <p>Turn one idea into titles, challenges, stories and content plans in seconds.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#tools">Start Creating — Free</a>
+          <a class="btn secondary" href="#ideas">Explore Ideas</a>
+        </div>
+        <div class="trust">✓ Free to start &nbsp; • &nbsp; ⚡ Fast &nbsp; • &nbsp; 🎮 Creator-focused</div>
+      </div>
+      <div class="hero-card">
+        <div class="window-top"><span></span><span></span><span></span><b>CraftForge Workspace</b></div>
+        <div class="mock-title">Your next video starts here.</div>
+        <div class="mock-row">
+          <div class="mini-card"><small>VIDEO IDEA</small><strong>100 Players Build One Civilization</strong></div>
+          <div class="mini-card"><small>TITLE SCORE</small><strong class="score">92/100</strong></div>
+        </div>
+        <div class="mock-input">Describe your Minecraft video idea... <span>→</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="section-head">
+        <span class="eyebrow">AI TOOLKIT</span>
+        <h2>Everything you need to create.</h2>
+        <p>Pick a tool, enter a few words, and CraftForge generates useful starting points instantly.</p>
+      </div>
+      <div class="tool-grid">
+        <article class="tool-card"><div class="icon">💡</div><h3>Video Idea Generator</h3><p>Get fresh Minecraft video concepts.</p><button onclick="openTool('idea')">Generate Ideas →</button></article>
+        <article class="tool-card"><div class="icon">🎯</div><h3>YouTube Title Generator</h3><p>Create punchy titles from your concept.</p><button onclick="openTool('title')">Generate Titles →</button></article>
+        <article class="tool-card"><div class="icon">🖼️</div><h3>Thumbnail Ideas</h3><p>Get clickable thumbnail concepts.</p><button onclick="openTool('thumb')">Create Concept →</button></article>
+        <article class="tool-card"><div class="icon">📝</div><h3>Description Generator</h3><p>Build a clean video description.</p><button onclick="openTool('desc')">Generate →</button></article>
+        <article class="tool-card"><div class="icon">📖</div><h3>SMP Story Generator</h3><p>Create twists, mysteries and episodes.</p><button onclick="openTool('smp')">Build a Story →</button></article>
+        <article class="tool-card"><div class="icon">⚔️</div><h3>Challenge Generator</h3><p>Find unique challenges for videos.</p><button onclick="openTool('challenge')">Generate →</button></article>
+      </div>
+    </section>
+
+    <section class="workspace section">
+      <div class="workspace-copy">
+        <span class="eyebrow">CREATOR WORKSPACE</span>
+        <h2>From blank page to upload-ready plan.</h2>
+        <p>Keep your ideas, titles and generated concepts in one clean workspace. This starter version stores data in your browser.</p>
+        <a class="btn primary" href="#tools">Try a Tool</a>
+      </div>
+      <div class="dashboard">
+        <div class="dash-line"><b>Recent projects</b><span>View all</span></div>
+        <div class="project"><span>🎮</span><div><b>Minecraft Manhunt</b><small>Title + thumbnail concept</small></div><em>Ready</em></div>
+        <div class="project"><span>🌑</span><div><b>The Secret Entity — SMP</b><small>Episode story outline</small></div><em>Draft</em></div>
+        <div class="project"><span>🔥</span><div><b>100 Days Challenge</b><small>Video idea</small></div><em>Saved</em></div>
+      </div>
+    </section>
+
+    <section class="section" id="ideas">
+      <div class="section-head">
+        <span class="eyebrow">CREATOR IDEAS</span>
+        <h2>Never run out of video ideas.</h2>
+      </div>
+      <div class="idea-grid">
+        <div class="idea"><span>MANHUNT</span><h3>Minecraft Manhunt But Every 5 Minutes My Power Changes</h3><p>Difficulty: Medium · Potential: High</p></div>
+        <div class="idea"><span>SMP</span><h3>The Secret Entity Has Been Watching Our SMP</h3><p>Story hook · Mystery · Multiplayer</p></div>
+        <div class="idea"><span>CHALLENGE</span><h3>I Survived 100 Days In A World That Changes Every Hour</h3><p>Difficulty: Hard · Long-form</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="minecraft">
+      <div class="section-head">
+        <span class="eyebrow">MINECRAFT TOOLS</span>
+        <h2>Useful tools. Zero clutter.</h2>
+      </div>
+      <div class="utility-grid">
+        <button onclick="openTool('command')">⚙️ Minecraft Command Helper</button>
+        <button onclick="openTool('challenge')">⚔️ Random Challenge</button>
+        <button onclick="openTool('smp')">📜 SMP Plot Generator</button>
+        <button onclick="openTool('idea')">🎲 Random Idea</button>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="section-head"><span class="eyebrow">PRICING</span><h2>Start free. Create more.</h2></div>
+      <div class="price-grid">
+        <div class="price"><h3>Free</h3><strong>₹0</strong><p>Basic creator tools and ideas.</p><a class="btn secondary" href="#tools">Start Free</a></div>
+        <div class="price featured"><b class="popular">MOST POPULAR</b><h3>Creator</h3><strong>₹199<span>/month</span></strong><p>Advanced tools and saved projects.</p><a class="btn primary" href="#tools">Choose Creator</a></div>
+        <div class="price"><h3>Pro</h3><strong>₹499<span>/month</span></strong><p>Higher limits and future premium tools.</p><a class="btn secondary" href="#tools">Choose Pro</a></div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <span class="eyebrow">YOUR NEXT VIDEO STARTS HERE</span>
+      <h2>Forge something worth clicking.</h2>
+      <p>Build your next Minecraft content idea in minutes.</p>
+      <a class="btn primary" href="#tools">Start Creating Free</a>
+    </section>
+  </main>
+
+  <footer><b>CraftForge</b><span>Forge Better Minecraft Content.</span><span>© 2026 CraftForge</span></footer>
+
+  <div class="modal" id="toolModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" onclick="closeTool()">×</button>
+      <span class="eyebrow">CRAFTFORGE TOOL</span>
+      <h2 id="toolTitle">AI Tool</h2>
+      <p id="toolHint"></p>
+      <textarea id="toolInput" placeholder="Type your idea here..."></textarea>
+      <button class="btn primary full" onclick="generate()">Generate</button>
+      <div class="result" id="result">Your result will appear here.</div>
+      <button class="copy" onclick="copyResult()">Copy Result</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
